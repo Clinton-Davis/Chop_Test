@@ -77,7 +77,7 @@ p {
 /* Section1 */
 
 .hero_container {
-    height: fit-content;
+    height: 100vh;
     padding: 50px;
     display: flex;
     flex-direction: row;
@@ -107,8 +107,39 @@ p {
     margin: auto;
 }
 
+.sub_hero {
+    max-width: 800px;
+    padding: 50px;
+}
+.sub_cards_container {
+    height: 60vh;
+    padding: 0px 50px 0px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.icon_1{
+    margin-bottom: 2em;
+    padding: 10px 10px 5px 10px;
+    border-radius: 2px;
+    background-color: #a3a2a273;
+    display: inline-block;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+
 @media (max-width: 992px) {
     .hero_container {
         flex-wrap: wrap-reverse;
+    }
+    .sub_cards_container {
+        flex-wrap: wrap;
+    }
+    .sub_hero {
+        margin-left: auto;
+        margin-right: auto;
     }
 }
