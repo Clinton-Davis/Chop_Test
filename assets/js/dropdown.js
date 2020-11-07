@@ -28,6 +28,4 @@ function showAwnser(num) {
       aws.style.display = "none";
     }
   }
-
-  //   //   image.src = "/assets/images/close.svg";
 }
