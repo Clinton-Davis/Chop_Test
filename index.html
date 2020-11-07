@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -74,17 +74,16 @@
         </div>
       </article>
     </section>
-    <!-- <section id="section-2">
+    <section id="section-2">
       <article class="art_2">
         <div class="slideshow-container">
-       
           <div class="myQuote fade">
             <div class="quote_slide fade">
               <div class="quote_block mx fw5">
                 <div class="qt_img mx">
                   <img src="/assets/images/quotes.svg" alt="quote-icon" />
                 </div>
-                <h4>
+                <h4 class="quote_text">
                   "Thank you for letting me show case my skills, amet
                   consectetur adipisicing elit. Odio quam cum iure iste?
                   Accusamus dolor reprehenderit aut commodi aliquam nulla
@@ -101,7 +100,7 @@
                 <div class="qt_img mx">
                   <img src="/assets/images/quotes.svg" alt="quote-icon" />
                 </div>
-                <h4>
+                <h4 class="quote_text">
                   "I had a lot of fun figgering this out ipsum dolor sit amet
                   consectetur adipisicing elit. Odio quam cum iure iste?
                   Accusamus dolor reprehenderit aut commodi aliquam nulla
@@ -117,7 +116,7 @@
                 <div class="qt_img mx">
                   <img src="/assets/images/quotes.svg" alt="quote-icon" />
                 </div>
-                <h4>
+                <h4 class="quote_text">
                   "This kind of work makes me a happy man, ipsum dolor sit amet
                   consectetur adipisicing elit. Odio quam cum iure iste?
                   Accusamus dolor reprehenderit aut commodi aliquam nulla
@@ -133,7 +132,7 @@
                 <div class="qt_img mx">
                   <img src="/assets/images/quotes.svg" alt="quote-icon" />
                 </div>
-                <h4>
+                <h4 class="quote_text">
                   "I hope I have done enought to work for you. ipsum dolor sit
                   amet consectetur adipisicing elit. Odio quam cum iure iste?
                   Accusamus dolor reprehenderit aut commodi aliquam nulla
@@ -143,8 +142,6 @@
               </div>
             </div>
           </div>
-
-        
           <a class="prev" onclick="plusQuotes(-1)"
             ><img src="/assets/images/arrow-02.svg" alt="arrow-left"
           /></a>
@@ -153,8 +150,6 @@
           /></a>
         </div>
         <br />
-
-     
         <div style="text-align: center">
           <span class="dash" onclick="currentQuote(1)"></span>
           <span class="dash" onclick="currentQuote(2)"></span>
@@ -162,7 +157,61 @@
           <span class="dash" onclick="currentQuote(4)"></span>
         </div>
       </article>
-    </section> -->
+    </section>
+
+    <article class="art_3">
+      <nav>
+        <ul class="nav_bar">
+          <li class="nav_links card_active">All</li>
+          <li class="nav_links">News</li>
+          <li class="nav_links">Insights</li>
+          <li class="nav_links">Events</li>
+          <li class="nav_links">Resources</li>
+        </ul>
+      </nav>
+      <div class="news_card_container mx">
+        <div class="new_card">
+          <img
+            class="news_img"
+            src="/assets/images/image-02.png"
+            alt="Happy man at desk"
+          />
+          <p class="insights fw6 mb1 mt1">INSIGHTS</p>
+          <h4 class="card_descr mb2">
+            Aliquam et sadsales non justo Convallis iaculis et sadsales non
+            justo.
+          </h4>
+
+          <p class="muted">Jan 11, 2020 - Rober O'Malley</p>
+        </div>
+        <div class="new_card">
+          <img
+            class="news_img"
+            src="/assets/images/image-03.png"
+            alt="Meating"
+          />
+          <p class="news fw6 mb1 mt1">NEWS</p>
+          <h4 class="card_descr mb2">
+            Aliquam Convallis iaculis et sadsales iaculis et sadsales non justo.
+          </h4>
+
+          <p class="muted mt-1">Jan 11, 2020 - Rober O'Malley</p>
+        </div>
+        <div class="new_card">
+          <img
+            class="news_img"
+            src="/assets/images/image-04.png"
+            alt="Bright working enviroment"
+          />
+          <p class="events fw6 mb1 mt1">EVENTS</p>
+          <h4 class="card_descr mb2">
+            Aliquam Convallis iaculis aliquam Convallis et sadsales non justo.
+          </h4>
+
+          <p class="muted">Jan 11, 2020 - Rober O'Malley</p>
+        </div>
+      </div>
+    </article>
     <script src="/assets/js/slides.js"></script>
   </body>
 </html>
