@@ -1,4 +1,4 @@
-var quoteIndex = 1;
+let quoteIndex = 1;
 showQuotes(quoteIndex);
 
 // Next/previous controls
