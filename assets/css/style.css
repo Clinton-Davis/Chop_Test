@@ -27,28 +27,12 @@ p {
 .mt1 {
   margin-top: 0.5rem;
 }
-.mt2 {
-  margin-top: 1rem;
-}
-.ml1 {
-  margin-left: 0.5rem;
-}
-.ml2 {
-  margin-left: 1rem;
-}
-.mr1 {
-  margin-right: 0.5rem;
-}
-.mr2 {
-  margin-right: 1rem;
-}
+
 .mx {
   margin-left: auto;
   margin-right: auto;
 }
-.pt1 {
-  padding-top: 0.5rem;
-}
+
 .pt2 {
   padding-top: 1rem;
 }
@@ -70,9 +54,7 @@ p {
 .pr2 {
   padding-right: 1rem;
 }
-.fw4 {
-  font-weight: 400;
-}
+
 .fw5 {
   font-weight: 500;
 }
@@ -90,7 +72,7 @@ p {
   height: fit-content;
 }
 .hero_container {
-  margin: 0 0 20% 0;
+  margin-top: 3rem;
   height: fit-content;
   padding: 2em;
   display: flex;
@@ -131,7 +113,7 @@ p {
 }
 .sub_cards_container {
   height: fit-content;
-  padding: 0px 50px 0px 50px;
+  padding: 0px 2em;
   display: flex;
   justify-content: space-around;
   align-content: center;
@@ -154,12 +136,14 @@ p {
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
+
+/* Aticle 2 */
 .art_2 {
   height: fit-content;
   margin-top: 20%;
   margin-bottom: 20%;
 }
-/* Slideshow container */
+
 .quotes_container {
   max-width: 1000px;
   position: relative;
@@ -172,10 +156,9 @@ p {
   margin-right: auto;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #000000cc;
 }
 
 .qt_img {
@@ -193,27 +176,16 @@ p {
   flex-direction: row;
 }
 
-.rightArrow {
-  margin-top: auto;
-  margin-bottom: auto;
-}
-.leftArrow {
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
 
-/* Hide the images by default */
 .myQuote {
   display: none;
 }
 
-/* Next & previous buttons */
 .prev,
 .next {
   cursor: pointer;
@@ -233,7 +205,6 @@ p {
   -o-border-radius: 50%;
 }
 
-/* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 50%;
@@ -243,13 +214,11 @@ p {
   -o-border-radius: 50%;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
   background-color: #50505075;
 }
 
-/* The dots/bullets/indicators */
 .dash {
   cursor: pointer;
   height: 2px;
@@ -265,7 +234,6 @@ p {
   background-color: #202020;
 }
 
-/* Fading animation */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -291,6 +259,8 @@ p {
   }
 }
 
+/* article 3 */
+
 .art_3 {
   height: fit-content;
   margin: 20% 0%;
@@ -300,11 +270,13 @@ p {
 .navigation_container {
   position: relative;
 }
+
 nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
+
 .nav_links {
   display: flex;
   width: 80%;
@@ -312,9 +284,11 @@ nav {
   align-items: center;
   margin-bottom: 2rem;
 }
+
 .nav_links li {
   list-style: none;
 }
+
 .nav_links a {
   text-decoration: none;
   font-size: 1.35em;
@@ -325,6 +299,7 @@ nav {
   display: none;
   margin: 2em 50%;
 }
+
 .toggle_button div {
   width: 25px;
   height: 4px;
@@ -339,18 +314,21 @@ nav {
 
 .card_active,
 .nav_links a:hover {
-  color: rgb(3, 3, 3);
+  color: #030303;
   text-decoration: underline;
 }
+
 .news_card_container {
   width: 90%;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
+
 .news_img {
   width: 22rem;
 }
+
 .new_card h4 {
   font-size: 1.25em;
   max-width: 20rem;
@@ -359,27 +337,35 @@ nav {
 .insights {
   color: #ff4500;
 }
+
 .news {
   color: #800080;
 }
+
 .events {
-  color: rgb(33, 140, 175);
+  color: #218caf;
 }
+
 .card_descr {
   cursor: pointer;
 }
+
 .card_descr:hover {
   text-decoration: underline;
 }
+
+/* Article 4 */
 
 .art_4 {
   height: fit-content;
   margin: 20% 0%;
 }
+
 .faq_container {
   display: flex;
-  margin: 0px 50px;
+  margin: 0px 1em;
 }
+
 .info {
   display: flex;
   flex-direction: column;
@@ -387,6 +373,7 @@ nav {
   margin-bottom: 2em;
   padding-left: 1em;
 }
+
 .answer {
   display: flex;
   flex-direction: column;
@@ -394,15 +381,18 @@ nav {
   margin: 1em;
   padding-right: 1em;
 }
+
 .info_heading {
   font-size: 1.75rem;
   margin-bottom: 1em;
 }
+
 .q_and_a {
   padding: 0 0 1em 1em;
   display: grid;
   grid-template-columns: 80% 20%;
 }
+
 .question {
   padding-bottom: 1em;
   grid-column-start: 1;
@@ -416,15 +406,18 @@ nav {
   padding-left: 3em;
   cursor: pointer;
 }
+
 .aws_1 {
   grid-column-start: 1;
   grid-column-end: 2;
 }
+
 .q_hr {
   width: 85%;
-  color: rgba(128, 128, 128, 0.514);
+  color: #80808083;
   padding-left: 1em;
 }
+
 .q {
   align-items: center;
   padding: 1em;
@@ -433,12 +426,15 @@ nav {
 #aws_1 {
   display: none;
 }
+
 #aws_2 {
   display: none;
 }
+
 #aws_3 {
   display: none;
 }
+
 #aws_4 {
   display: none;
 }
@@ -447,20 +443,24 @@ nav {
   color: #ff4500;
 }
 
+/* Article 5 */
+
 .art_5 {
   height: fit-content;
   margin: 20% 0%;
 }
+
 .spcial_heading_container {
   display: flex;
   justify-content: space-between;
   margin: 2.2em;
 }
+
 .spcial_heading {
   font-size: 2em;
   font-weight: 900;
-  margin-left: 50px;
 }
+
 .arrow_bg {
   background-color: #bbb;
   display: flex;
@@ -472,20 +472,24 @@ nav {
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
 }
+
 .arrows {
   height: 20px;
   padding: 5px 10px;
   vertical-align: middle;
 }
+
 .spcial_card_container {
   display: flex;
   justify-content: flex-start;
-  margin-left: 50px;
+  margin-left: 2em;
   overflow: hidden;
 }
+
 .spcial_card_img {
   width: 22rem;
 }
+
 .spcial_p {
   font-weight: 600;
   margin-top: 1em;
@@ -493,14 +497,19 @@ nav {
   font-size: 1.2em;
   cursor: pointer;
 }
+
 .spcial_p:hover {
   color: #ff4500;
 }
+
+/* Media Querys */
+
 @media (max-width: 1200px) {
   .card_3 {
     display: none;
   }
 }
+
 @media (max-width: 992px) {
   .hero_container {
     flex-wrap: wrap-reverse;
@@ -533,7 +542,7 @@ nav {
     left: 0px;
     height: fit-content;
     width: 100%;
-    top: 15vh;
+    top: 12vh;
     background-color: #ffffff;
     display: none;
     flex-direction: column;
@@ -542,5 +551,35 @@ nav {
     display: flex;
     animation-name: fade;
     animation-duration: 1.5s;
+  }
+}
+
+@media (max-width: 400px) {
+  .news_card_container {
+    display: block;
+  }
+  .news_img {
+    width: 18rem;
+  }
+  .spcial_card_container {
+    margin-left: 1em;
+  }
+  .spcial_heading_container {
+    margin: 2.2em 0.5em;
+  }
+  .sub_cards_container {
+    padding: 0px 0.75em;
+  }
+  .sub_hero {
+    padding: 1.5em;
+  }
+  .hero_container {
+    margin-top: 0;
+  }
+  .hero_text h1 {
+    font-size: 1.7rem;
+  }
+  .spcial_heading {
+    font-size: 1.7rem;
   }
 }
