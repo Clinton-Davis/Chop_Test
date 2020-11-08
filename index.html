@@ -159,13 +159,25 @@
       </article>
       <article class="art_3">
         <nav>
-          <ul class="nav_bar">
-            <li class="nav_links card_active">All</li>
-            <li class="nav_links">News</li>
-            <li class="nav_links">Insights</li>
-            <li class="nav_links">Events</li>
-            <li class="nav_links">Resources</li>
+          <ul class="nav_links">
+            <li>
+              <a href="">All</a>
+            </li>
+            <li>
+              <a href="">Insights</a>
+            </li>
+            <li>
+              <a href="">Events</a>
+            </li>
+            <li>
+              <a href="">Resources</a>
+            </li>
           </ul>
+          <div class="toggle_button">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
         </nav>
         <div class="news_card_container mx">
           <div class="new_card">
@@ -179,10 +191,10 @@
               Aliquam et sadsales non justo Convallis iaculis et sadsales non
               justo.
             </h4>
-  
+
             <p class="muted">Jan 11, 2020 - Rober O'Malley</p>
           </div>
-          <div class="new_card">
+          <div class="new_card card_2">
             <img
               class="news_img"
               src="/assets/images/image-03.png"
@@ -190,12 +202,13 @@
             />
             <p class="news fw6 mb1 mt1">NEWS</p>
             <h4 class="card_descr mb2">
-              Aliquam Convallis iaculis et sadsales iaculis et sadsales non justo.
+              Aliquam Convallis iaculis et sadsales iaculis et sadsales non
+              justo.
             </h4>
-  
+
             <p class="muted mt-1">Jan 11, 2020 - Rober O'Malley</p>
           </div>
-          <div class="new_card">
+          <div class="new_card card_3">
             <img
               class="news_img"
               src="/assets/images/image-04.png"
@@ -205,7 +218,7 @@
             <h4 class="card_descr mb2">
               Aliquam Convallis iaculis aliquam Convallis et sadsales non justo.
             </h4>
-  
+
             <p class="muted">Jan 11, 2020 - Rober O'Malley</p>
           </div>
         </div>
@@ -213,110 +226,103 @@
       <article class="art_4">
         <div class="faq_container mx">
           <div class="info">
-            <h3>Your Questions Answered and then some</h3>
+            <h3 class="info_heading">Your Questions Answered and then some</h3>
+            <br />
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
               sapiente omnis odit mollitia blanditiis?
             </p>
           </div>
           <div class="answer">
-            <div class="q">
-              <h4 class="q">
+            <div class="q_and_a">
+              <h4 class="question">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit
-                
-                  <img
-                    onclick="showAwnser(1)"
-                    id="qst_icon_1"
-                    class="qst_icon"
-                    src="/assets/images/open.svg"
-                    alt="Open-icon"
-                  />
-             
               </h4>
-              <div>
-                <p id="aws_1" class="aws_1">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Deserunt temporibus, praesentium aliquid in libero quisquam
-                  autem rem sequi possimus porro at natus
-                  accusantium consequuntur recusandae perspiciatis corrupti fugiat
-                  minima nostrum!
-                </p>
-              </div>
+
+              <img
+                onclick="showAwnser(1)"
+                id="qst_icon_1"
+                class="qst_icon"
+                src="/assets/images/open.svg"
+                alt="Open-icon"
+              />
+
+              <p id="aws_1" class="aws_1">
+                Thank you for giving me a chance amet consectetur adipisicing
+                elit. Deserunt temporibus, praesentium aliquid in libero
+                quisquam autem rem sequi possimus porro at
+                <a class="inline_link" href="">inline link</a> natus accusantium
+                consequuntur recusandae perspiciatis corrupti fugiat minima
+                nostrum!
+              </p>
             </div>
             <hr class="q_hr" />
-            <div class="q">
-              <h4 class="q">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit
-                
-                  <img
-                    onclick="showAwnser(2)"
-                    id="qst_icon_2"
-                    class="qst_icon"
-                    src="/assets/images/open.svg"
-                    alt="Open-icon"
-                  />
-               
+            <div class="q_and_a">
+              <h4 class="question pt2">
+                Dolor sit amet consectetur adipisicing elit
               </h4>
-              <div>
-                <p id="aws_2" class="aws_2">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Deserunt temporibus, praesentium aliquid in libero quisquam
-                  autem rem sequi possimus porro at
-                   class="inline_link" href="#">inline link</a> natus
-                  accusantium consequuntur recusandae perspiciatis corrupti fugiat
-                  minima nostrum!
-                </p>
-              </div>
+
+              <img
+                onclick="showAwnser(2)"
+                id="qst_icon_1"
+                class="qst_icon"
+                src="/assets/images/open.svg"
+                alt="Open-icon"
+              />
+
+              <p id="aws_2" class="aws_1">
+                This was a lot of fun, consectetur adipisicing elit. Deserunt
+                temporibus,
+                <a class="inline_link" href="">inline link</a> praesentium
+                aliquid in libero quisquam autem rem sequi possimus porro at
+                natus accusantium consequuntur recusandae perspiciatis corrupti
+                fugiat minima nostrum!
+              </p>
             </div>
             <hr class="q_hr" />
-            <div class="q">
-              <h4 class="q">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit
-               
-                  <img
-                    onclick="showAwnser(3)"
-                    id="qst_icon_1"
-                    class="qst_icon"
-                    src="/assets/images/open.svg"
-                    alt="Open-icon"
-                  />
-              
-              </h4>
-              <div>
-                <p id="aws_3" class="">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Deserunt temporibus, praesentium aliquid in libero quisquam
-                  autem rem sequi possimus porro at
-                  <a class="inline_link" href="#">inline link</a> natus
-                  accusantium consequuntur recusandae perspiciatis corrupti fugiat
-                  minima nostrum!
-                </p>
-              </div>
+            <div class="q_and_a">
+              <h4 class="question">Amet consectetur adipisicing elit</h4>
+
+              <img
+                onclick="showAwnser(3)"
+                id="qst_icon_1"
+                class="qst_icon"
+                src="/assets/images/open.svg"
+                alt="Open-icon"
+              />
+
+              <p id="aws_3" class="aws_1">
+                I hope i have done enought, amet consectetur adipisicing elit.
+                Deserunt temporibus, praesentium aliquid in libero quisquam
+                autem rem sequi possimus porro at natus accusantium consequuntur
+                recusandae perspiciatis
+                <a class="inline_link" href="">inline link</a> corrupti fugiat
+                minima nostrum!
+              </p>
             </div>
             <hr class="q_hr" />
-            <div class="q">
-              <h4 class="q">
+            <div class="q_and_a">
+              <h4 class="question">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit
-                <a
-                  ><img
-                    onclick="showAwnser(4)"
-                    id="qst_icon_2"
-                    class="qst_icon"
-                    src="/assets/images/open.svg"
-                    alt="Open-icon"
-                  />
-                </a>
               </h4>
-              <div>
-                <p id="aws_4" class="aws_2">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Deserunt temporibus, praesentium aliquid in libero quisquam
-                  autem rem sequi possimus porro at
-                  <a class="inline_link" href="#">inline link</a> natus
-                  accusantium consequuntur recusandae perspiciatis corrupti fugiat
-                  minima nostrum!
-                </p>
-              </div>
+
+              <img
+                onclick="showAwnser(4)"
+                id="qst_icon_1"
+                class="qst_icon"
+                src="/assets/images/open.svg"
+                alt="Open-icon"
+                aria-roledescription="button"
+              />
+
+              <p id="aws_4" class="aws_1">
+                Lorem ipsum dolor
+                <a class="inline_link" href="">inline link</a> sit amet
+                consectetur adipisicing elit. Deserunt temporibus, praesentium
+                aliquid in libero quisquam autem rem sequi possimus porro at
+                natus accusantium consequuntur recusandae perspiciatis corrupti
+                Thank you!
+              </p>
             </div>
             <hr class="q_hr" />
           </div>
@@ -369,8 +375,8 @@
       </article>
     </section>
 
-    
     <script src="/assets/js/slides.js"></script>
     <script src="/assets/js/dropdown.js"></script>
+    <script src="/assets/js/nav.js"></script>
   </body>
 </html>
