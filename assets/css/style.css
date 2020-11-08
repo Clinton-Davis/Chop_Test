@@ -7,10 +7,11 @@
 html {
   height: fit-content;
   font-family: "Poppins";
+  overflow-x: auto;
 }
 
 body {
-  height: 100%;
+  height: fit-content;
 }
 p {
   max-width: 600px;
@@ -86,10 +87,10 @@ p {
 /* Section1 */
 #section_1 {
   height: fit-content;
-  margin-bottom: 15em;
 }
 .hero_container {
-  height: 100vh;
+  margin: 0 0 20% 0;
+  height: fit-content;
   padding: 50px;
   display: flex;
   flex-direction: row;
@@ -119,9 +120,8 @@ p {
 }
 
 .art_1 {
-  margin-top: auto;
-  margin-bottom: auto;
-  height: 100vh;
+  height: fit-content;
+  margin: 20% 0;
 }
 .sub_hero {
   max-width: 800px;
@@ -149,11 +149,13 @@ p {
 /*Section - 2  */
 #section_2 {
   height: fit-content;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 .art_2 {
-  height: 80vh;
-  margin-top: auto;
-  margin-bottom: auto;
+  height: fit-content;
+  margin-top: 20%;
+  margin-bottom: 20%;
 }
 /* Slideshow container */
 .quotes_container {
@@ -326,8 +328,10 @@ p {
 }
 
 .art_3 {
-  height: 100vh;
+  height: fit-content;
+  margin: 20% 0%;
   position: relative;
+  overflow: hidden;
 }
 .navigation_container {
   position: relative;
@@ -384,7 +388,8 @@ p {
 }
 
 .art_4 {
-  height: 100vh;
+  height: fit-content;
+  margin: 20% 0%;
 }
 .faq_container {
   display: flex;
@@ -450,7 +455,8 @@ p {
 }
 
 .art_5 {
-  height: 100vh;
+  height: fit-content;
+  margin: 20% 0%;
 }
 .spcial_heading_container {
   display: flex;
