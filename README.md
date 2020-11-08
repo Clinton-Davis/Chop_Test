@@ -12,7 +12,7 @@
 
 ## Demo
 
-Demo can found [Here](https://practical-shockley-cc43a2.netlify.app)
+Hosted on Netlify free account: [Link here](https://practical-shockley-cc43a2.netlify.app)
 
 ---
 
