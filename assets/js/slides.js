@@ -1,4 +1,5 @@
 let quoteIndex = 1;
+
 showQuotes(quoteIndex);
 
 // Next/previous controls
@@ -29,4 +30,27 @@ function showQuotes(num) {
   }
   quotes[quoteIndex - 1].style.display = "block";
   dash[quoteIndex - 1].className += " active";
+}
+
+let slide_index = 1;
+displaySlides(slide_index);
+function nextSlide(n) {
+  displaySlides((slide_index += n));
+}
+function currentSlide(n) {
+  displaySlides((slide_index = n));
+}
+function displaySlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("spcial_card");
+  if (n > slides.length) {
+    slides.index = 1;
+  }
+  if (n < 1) {
+    slide_index = slides.length;
+  }
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "block";
+  }
+  slides[slide_index - 1].style.display = "block";
 }

@@ -1,31 +1,13 @@
-function showAwnser(num) {
-  if (num === 1) {
-    let aws = document.getElementById("aws_1");
-    if (aws.style.display === "none") {
-      aws.style.display = "block";
+var acc = document.getElementsByClassName("qst_icon");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function () {
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
     } else {
-      aws.style.display = "none";
+      panel.style.display = "block";
     }
-  } else if (num === 2) {
-    let aws = document.getElementById("aws_2");
-    if (aws.style.display === "none") {
-      aws.style.display = "block";
-    } else {
-      aws.style.display = "none";
-    }
-  } else if (num === 3) {
-    let aws = document.getElementById("aws_3");
-    if (aws.style.display === "none") {
-      aws.style.display = "block";
-    } else {
-      aws.style.display = "none";
-    }
-  } else {
-    let aws = document.getElementById("aws_4");
-    if (aws.style.display === "none") {
-      aws.style.display = "block";
-    } else {
-      aws.style.display = "none";
-    }
-  }
+  });
 }

@@ -461,6 +461,9 @@ nav {
   font-weight: 900;
 }
 
+.arrows {
+  cursor: pointer;
+}
 .arrow_bg {
   background-color: #bbb;
   display: flex;
