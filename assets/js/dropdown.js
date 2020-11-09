@@ -1,9 +1,9 @@
-var acc = document.getElementsByClassName("qst_icon");
-var i;
+let acc = document.getElementsByClassName("qst_icon");
+let i;
 
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function () {
-    var panel = this.nextElementSibling;
+    let panel = this.nextElementSibling;
     if (panel.style.display === "block") {
       panel.style.display = "none";
     } else {
