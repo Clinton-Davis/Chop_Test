@@ -405,8 +405,19 @@ nav {
   vertical-align: middle;
   padding-left: 3em;
   cursor: pointer;
+  z-index: 2;
 }
-
+.qst_icon_close {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  vertical-align: middle;
+  padding-left: 3em;
+  cursor: pointer;
+  z-index: 2;
+}
+.index {
+  z-index: 0;
+}
 .aws_1 {
   grid-column-start: 1;
   grid-column-end: 2;
